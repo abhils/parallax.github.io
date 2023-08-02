@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    background: url('https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg') no-repeat center center/cover;
+    height: 98vh;
+    width: 100wh;
+    display: flex;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    background-color: rgb(82, 73, 73);
+   display: inline-block;
+   font-family: 'Raleway', sans-serif;
+
+}
+.section1 h1{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+padding: 10px;
+font-size: 2.8rem;
+
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.section2 h2{
+    margin: auto;
+    padding: 10px;
+    font-size: 1.9rem;
+}
+.section2 p{
+    padding:10px;
+    text-align: center;
+    line-height: 25px;
+}
+.section3{
+    background: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_1280.jpg') no-repeat center center/cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+
+    justify-content: center;
+    align-items: center;
+    width: 100wh;
+}
+.heading2{
+ border-radius: 2px;
+ height: 100px;
+ width: 450px;
+}
+.heading2{
+   /* border: 2px solid green; */
+   display: flex;
+   align-items: center;
+   background-color: rgb(117, 85, 85);
+   justify-content: center;
+}
+
+/* .heading2::before{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+    z-index: -2;
+} */
+.heading2 h1{
+    font-size: 2.2rem;
+    color: white;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(61, 56, 56);
+    
+
+}
+.section4 h2{
+    margin: auto;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.9rem;
+}
+.section4 p{
+    padding:15px;
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.section5{
+    background: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+    width: 100wh;
+}
+.section5 .heading3{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+}
+.section6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(61, 56, 56);
+    
+
+}
+.section6 h2{
+    margin: auto;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.9rem;
+}
+.section6 p{
+    padding:15px;
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.section7{
+    background: url('https://cdn.pixabay.com/photo/2014/08/15/11/29/beach-418742_1280.jpg') no-repeat center center/cover;
+    height: 98vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+.heading5{
+    color: wheat;
+    background-color: rgb(52, 41, 41);
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+@media (max-width:450px){
+    html{
+        font-size: 90%;
+    }
+    .heading h1{
+        font-size: 2.2rem;
+    }.section2{
+        padding: 10px;
+    }
+    .heading3 h1{
+        font-size: 2.2rem;
+    }.section2{
+        padding: 10px;
+    }
+    .heading2{
+       height: 100px;
+       width: 300%;
+    }
+}
